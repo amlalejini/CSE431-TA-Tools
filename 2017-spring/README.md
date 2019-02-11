@@ -1,5 +1,7 @@
 # TA Tools - Spring 2017
 
+**TA:** :octocat: [amlalejini](https://github.com/amlalejini)
+
 These scripts were developed for the Spring 2017 CSE 491 (now CSE 431) algorithm
 engineering class at Michigan State University.
 

@@ -1,0 +1,9 @@
+{
+  "assignment_name": "assignment-1",
+  "detection_workspace": "detection-workspace",
+  "hackerrank_creditials": "../creds/ex_hr_creds.json",
+  "hackerrank_submissions_url": "https://www.hackerrank.com/contests/assignment-1-competition/judge/submissions",
+  "hackerrank_login_url": "https://www.hackerrank.com/login",
+  "headless_browser_driver": "../drivers/geckodriver",
+  "pickle": "assignment-1.pickle"
+}

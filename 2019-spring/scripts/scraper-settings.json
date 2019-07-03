@@ -1,0 +1,19 @@
+{
+  "assignment_name": "EXAMPLE",
+  "pickle": "EXAMPLE.pickle",
+
+  "detection_workspace": "../detection-workspace",
+  "hackerrank_creditials": "../creds/ex_hr_creds.json",
+  "headless_browser_driver": "../drivers/geckodriver",
+
+  "hackerrank_submissions_url": "https://www.hackerrank.com/contests/<CONTEST_NAME>/judge/submissions",
+  "hackerrank_contest_url": "https://www.hackerrank.com/<CONTEST_NAME>",
+  "hackerrank_login_url": "https://www.hackerrank.com/login",
+
+  "end_year": 2019,
+  "end_month": 4,
+  "end_day": 20,
+  
+  "extra_credit_identifier": "part of the extra credit problem name that uniquely identifies it",
+  "extra_credit_regular_value": 100
+}

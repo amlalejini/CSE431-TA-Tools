@@ -44,7 +44,7 @@ Relevant scripts:
     - Description
       - This script uses the Selenium web driver to log on to a HackerRank competition, loop over student submissions, copy grades into a big json, then create a csv with the final grades. This csv will have rows containing a student's HackerRank name, a list of their scores with the 10% penaly preapplied for each late day that they have submissions (with the 0th indexed score being their score on or before the due date, and the 1st and later being for 1 or more days late up to a maximum of 5), the best score overall assuming they do not use an extension, and a list of their extra credit scores (again with preapplied penalty for each day).
       - It assumes that there is only one problem that provides extra credit. If this problem also provides regular credit towards their actual homework grade, you will set how many points of this problem are **NOT** extra credit in the json settings file, i.e what the standard value of the problem is.
-      - Something to note is that if a student uses an extension, their actual best score should be checked for by undoing the penalty on the aforementioned list. This was something I meant to add to the output but didn't get around to. It should be east enough to add this in.
+      - Something to note is that if a student uses an extension, their actual best score should be checked for by undoing the penalty on the aforementioned list. This was something I meant to add to the output but didn't get around to. It should be easy enough to add this in.
     - Dependencies
       - [Selenium](https://www.seleniumhq.org/) - headless browsing
       - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) - html parsing

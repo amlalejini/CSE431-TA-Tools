@@ -38,7 +38,7 @@ Relevant scripts:
     - Dependencies
       - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) - html parsing
     - Usage
-      - `python2 linuxPasteExtract.py settingsfile`
+      - `python linuxPasteExtract.py settingsfile`
         - Settings are given by a json file (see [example](./scripts/scraper-settings-example.json)).
   - [linuxGradeScraper.py](./scripts/linuxGradeScraper.py)
     - Description
@@ -73,7 +73,7 @@ Relevant scripts:
     - Dependencies
       - [Beautiful Soup](https://www.crummy.com/software/BeautifulSoup/) - html parsing
     - Usage
-      - `python2 winPasteExtract.py settingsfile`
+      - `python winPasteExtract.py settingsfile`
         - Settings are given by a json file (see [example](./scripts/scraper-settings-example.json)).
 
 ## Plagiarism Detection
